@@ -12,6 +12,8 @@ div.sound {
 button {
     height: 100px;
     width: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
     border-radius: 50px;
     background-color: red;
     border: none;
@@ -21,6 +23,7 @@ button {
 
 button:active {
     margin-top: 10px;
+    margin-bottom: 0;
     box-shadow: 0 5px brown;
     transform: translateY(4px);
 }
