@@ -7,3 +7,21 @@ div.sound {
     width: 400px;
     margin: 1em;
 }
+
+/* start of stolen code */
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    box-shadow: 0 15px brown;
+    font-size:  3em;
+}
+
+button:active {
+    margin-top: 10px;
+    box-shadow: 0 5px brown;
+    transform: translateY(4px);
+}
+/* end of stolen code */
